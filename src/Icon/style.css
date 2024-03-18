@@ -1,0 +1,50 @@
+:root {
+  --p-color-icon: #eee;
+  --p-color-icon-info: blue;
+  --p-color-icon-warning: yellow;
+  --p-color-icon-caution: orange;
+  --p-color-icon-critical: red;
+  --p-color-icon-subdued: #aaa;
+  --p-color-icon-interactive: aqua;
+}
+
+.icon {
+  padding: 2px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.icon svg {
+  color: var(--p-color-icon);
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+}
+
+.tone-inherit svg {
+  color: inherit;
+}
+
+.tone-info svg {
+  color: var(--p-color-icon-info);
+}
+
+.tone-warning svg {
+  color: var(--p-color-icon-warning);
+}
+
+.tone-caution svg {
+  color: var(--p-color-icon-caution);
+}
+
+.tone-critical svg {
+  color: var(--p-color-icon-critical);
+}
+
+.tone-subdued svg {
+  color: var(--p-color-icon-subdued);
+}
+
+.tone-interactive svg {
+  color: var(--p-color-icon-interactive);
+}
